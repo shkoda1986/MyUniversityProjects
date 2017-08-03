@@ -1,0 +1,107 @@
+<!--Travail fait par Tatsiana Shkoda 20025283-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+  <head>
+     <meta charset="utf-8">
+     <title>The world of cinema</title>
+      <!--Icône de raccourci-->  
+	 
+      <link rel="shortcut icon" href="images/film-strip-with-icon_23-2147503484.jpg"/>
+      <link rel="stylesheet" href="CSS.css"><!--CSS-->
+	   <!--JavaScript-->
+      <script src = "JS.js"></script>
+  
+
+    </head>
+    <a href="accueil.html" ><img src="images/film-strip-with-icon_23-2147503484.jpg" width="50" height="50"></a>
+  <body>
+      <!--L'entête-->
+      <header>
+        <h1 style="height: 158px">The world of cinema</h1>
+		<a href="images/47467625_w640_h640_n1.jpg"/>
+      </header>
+      
+      
+      <!--Menu de navigations-->
+      <nav>
+        <ul class="navigation">
+        <li><a href="accueil.html" title="Page d'accueil">Accueil</a></li>
+        <li><a href="produit.html" title="La liste des films">Catalogue</a></li>
+        <li><a href="contact.html" title="Vous pouvez enregistrer ici">Contact</a></li>
+        </ul>
+    </nav>
+   
+ <!--Section avec l'adresse-->
+       <main class="flex-container">
+            
+        <section>
+              
+            <form name="myForm" onsubmit="return validateForm()">
+                
+    <fieldset>
+                <legend>Données personnelles</legend>
+          <div title="Champ obligatoire">  
+              <label for="nom">Nom </label><input  type="text" name="nom" id="nom" />
+          </div> 
+		<div title="Champ obligatoire">  
+              <label for="prenom">Prenom</label><input   type="text" name="prenom" id="prenom" />
+          </div>  		  
+            <div  title="Champ obligatoire">
+        <label for="tel">Téléphone </label><input  type="tel" name="tel" id="tel"  placeholder="(999) 999-9999" pattern="\([2-9][0-9]{2}\)[0-9]{3}-[0-9]{4}"/>
+           </div>
+            <div title="Champ obligatoire">
+        <label for="courriel">Courriel </label><input  type="email" name="courriel" id="courriel" />
+            </div> 
+            <div>
+        <label for="ville">Ville </label><input type="text" name="ville" id="ville"/>
+            </div>
+            <div>
+        <label for="codp">Code postal </label><input type="text" name="codp" id="codp" placeholder="X9X9X9" pattern="[A-Z][0-9][A-Z][0-9][A-Z][0-9]"/>
+            </div>
+            <div>
+       <label for="province">Province</label><select name="province" id="province">
+                    <option>Alberta</option>
+                    <option>Colombie-Britannique</option>
+                    <option>Île-du-Prince-Édouard</option>
+                    <option>Manitoba</option>
+                    <option>Nouveau-Brunswick</option>
+                    <option>Nouvelle-Écosse</option>
+                    <option>Ontario</option>
+                    <option selected>Québec</option>
+                    <option>Saskatchewan</option>
+                    <option>Terre-Neuve-et-Labrador</option>
+                    <option> Nunavut</option>
+                    <option>Territoires du Nord-Ouest</option>
+                    <option>Yukon</option>
+                </select>
+            </div>
+
+    </fieldset>
+                
+                
+     <fieldset>
+                 <legend>Autres informations</legend>
+    
+                <p><label for="msg">Si vous voulez fournir un commentaire sur notre site, remplissez le champ ci-dessous.</label></p>
+                <p><textarea name="msg" id="msg" rows="3" cols="40"> </textarea></p>
+                
+                <input type="hidden" name="cache" id="cache" value="20025283" />
+                  
+            </fieldset>
+                <div class="centrer">
+                 <input class="boutonannuler" type="reset" value="ANNULER"/>
+                <input  class="boutonenvoyer" type="submit" value="ENVOYER"/>
+                </div>
+            </form>
+                </section> 
+ 
+      </main>
+      <footer>
+          <!--Date de mise à jour et copyright-->
+          <p>Tous droits réservés &copy; Tatsiana Shkoda<br>
+              <div id="timedisplay"></div>
+      </footer>
+   
+    </body>
+</html>
+  

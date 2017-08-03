@@ -1,0 +1,175 @@
+/*Travail fait par Tatsiana Shkoda 20025283*/
+@charset "utf-8";
+
+
+body{
+	font-family:"Franklin Gothic Thin", "Arial Narrow", Arial, sans-serif;
+	color:#333333;
+	background-color:lightgray;}
+    
+    
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:space-around;
+    margin:auto;}
+    
+.flex-item{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:space-around;
+     width: 40%;}
+h1{text-align:center;
+    font-size:500%;}    
+h2{padding:10px;}
+p{padding:5px;}
+    
+ section{
+    background-color:#999999;
+    border:thin black solid;
+    margin:15px;
+	padding:10px;}
+
+article{
+    margin:15px;
+	padding:10px;
+    border:thin black solid;}
+    
+ aside{
+    margin:15px;
+	padding:10px;
+    background-color:#999999;
+    border:thin black solid;}
+	
+ img {
+	width: 100px;
+	height:100px;
+ } 
+ th{
+	 margin:15px;
+	 padding:20px;
+ }
+/*entete*/
+header{
+	color:#CCCCCC;
+	background-color:#333333;
+	background-image:url('images/47467625_w640_h640_n1.jpg');
+	background-size: 20%;
+	background-repeat:no-repeat;
+	background-position:left;
+	}
+
+/* menu de navigation */
+ .navigation{
+  	 list-style: none;
+     padding: 10px; 
+     text-align: center;   
+     font-weight: bold;
+     background-color:#999999;
+    }
+ .navigation li{
+   	display: inline; 
+    margin-right: 1px; 
+   	padding: 3px;
+    font-size:22px; 
+  	}
+ .navigation li a{
+    padding: 10px 15px;
+    background-color:#999999;
+    color: #3f3f3f; 
+    text-decoration: none;
+    text-transform: capitalize;
+	}
+
+.navigation li a:link{color:#3f3f3f;}
+
+.navigation li a:visited{color:black;}
+
+.navigation li a:hover{color:#333333;
+                       background-color:ghostwhite;}
+.navigation li a:active{color:ghostwhite;
+                       background-color:#333333;}
+    
+    
+ /*pied de page*/
+footer{
+	padding: 15px;
+	background-color:#999999;
+	border:thin black solid;
+    }
+footer p{
+	float: right;  
+    width: 50%;
+ 	text-align: right;
+ 	margin: 10px;
+    }
+      
+    
+    
+/* Pages spécifiques */
+   
+/*page produit*/
+
+# panier 
+{ margin-right: 10px;}	
+    
+/*page d'accueil*/ 
+
+aside li{
+	list-style: none;
+	padding: 10px;}
+
+aside li a:visited{color:black;}
+
+aside li a:link{color:#3f3f3f;}
+
+aside li a:hover{color:navy;}
+          
+asideli a:active{color:darkslateblue;}
+       
+
+  
+
+/*page  contact*/
+
+address{
+    border:solid black thin;
+    padding:5px;
+    margin:15px;}
+
+section p a{color:navy;}
+
+form{
+border:solid black thin;
+padding: 10px 15px 10px 10px;
+margin: 15px;}
+
+.boutonannuler{
+    background-color: #CCCCCC;
+   width: auto;}
+    
+.boutonenvoyer{
+    background-color: #333333;
+    color:lightgray;
+    width: auto;}
+.centrer{
+    margin: 10px;
+    text-align: center;}
+
+
+div label {
+display: inline-block;
+width: 8em
+  
+}
+
+div input{
+display: inline-block;
+width: 30em;}
+
+    
+ 
+
+
+ 
