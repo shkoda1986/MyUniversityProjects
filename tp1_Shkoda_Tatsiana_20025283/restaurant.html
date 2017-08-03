@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <meta charset="utf-8">
+        <title>Restaurant Aux délices</title>
+        
+       
+        <link rel="stylesheet" href="CSS.css" /><!--le CSS-->
+        
+        <!--JavaScript-->
+      <script src = "script.js"></script>
+      
+        
+    
+    </head>
+  
+    <body  onload="creationOption()" >
+        <!--L'entête-->
+        <header>
+                
+            <div id = "left"><h2>Cours IFT1142<br>Menu</h2></div>
+                
+            <div id = "right"><h3>Travail Pratique #1<br>par Tatsiana Shkoda, 20025283</h3></div>
+                
+        </header>
+
+    <main>
+        
+        <h1>Restaurant Aux délices du IFT1142</h1>
+        <h3>Votre choix</h3>
+           
+ 
+          
+      <div id = "left"><label for="entree">Entrée:</label>
+                <select id="entree" class="choose" name="entree" >
+                </select>
+          <img id="imgE" src = "images/vide.jpg"  width="200" height="200"/>
+  
+          <span id="X">0.00$</span></div>         
+            
+       <div id = "right"><label for="repas">Repas:</label>
+                <select id="repas" class="choose" name="repas" >
+                </select>
+       <img name = 'img' id = 'imgR'  src = "images/vide.jpg"  width="200" height="200"/>
+           <span id="Y">0.00$</span></div>
+  
+            
+        <div id = "bottom"><h3>Sous-total:<span id = "sousTotal">0.00$</span>Taxes:<span id = "taxes">0.00$</span>Total:<span id = "total">0.00$</span></h3></div>
+     
+    </main>
+        
+        <!--Validation sur W3C et le logo HTML5 et CSS3-->
+        <footer>
+            
+          <hr><div id = "left"><a href="http://validator.w3.org/check?uri=referer">
+                <img src="images/html5.png"
+                     width="64" height="64" 
+                     alt="HTML5 Powered with Semantics"
+                     title="HTML5 Powered with Semantics"/></a></div>
+            
+            <div id = "right"><a href="https://jigsaw.w3.org/css-validator/">
+                <img src="images/css3.png"
+                     width="64" height="64" 
+                     alt="CSS3 Powered with Semantics"
+                     title="CSS3 Powered with Semantics"/></a></div>
+        </footer>
+    </body>
+</html>
+  
