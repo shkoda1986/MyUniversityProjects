@@ -1,0 +1,54 @@
+<!--Travail fait par Tatsiana Shkoda 20025283-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <meta charset="utf-8">
+        <title>Travail Pratique #2</title>
+		<!-- le JS-->
+	<script language="javascript" src="hospitalisation.js"></script>
+        <!--le CSS-->
+        <link rel="stylesheet" href="CSS.css"/>
+    </head>
+<body>
+<h1>GESTION DES HOSPITALISATIONS</h1>
+
+<input type="button" value="Liste des patients" onClick="divVisible('listePatients');">
+<input type="button" value="Liste des établissement" onClick="divVisible('listeEtablissement');">
+<input type="button" value="Liste des hospitalisations" onClick="divVisible('listeHospitalisations');">
+<input type="button" value="Hospitalisations par patients" onClick="divVisible('formEtab');">
+<input type="button" value="Liste des patients par établissement et par spécialité" onClick="divVisible('codeEtab');">
+
+
+<div id = "listePatients" style="visibility:hidden;position:absolute;"></div>
+<div id = "listeEtablissement" style="visibility:hidden;position:absolute;"></div>
+<div id = "listeHospitalisations" style="visibility:hidden;position:absolute;"></div>
+
+<div id = "formEtab" style="visibility:hidden;position:absolute;">
+ <form><select id="etablissement" size="1" onChange="remplirTabPatient(this);">
+ <option >Choisissez code</option>
+ </select></form>
+ <div id = "opt">
+ </div>
+</div>
+
+<div id = "codeEtab" style="visibility:hidden;position:absolute;">
+ <form><select id="codeEtablissement" size="1" onChange="onchangeSelect()">
+ <option>Choisissez code</option>
+ </select>
+ <div id = "specialite" style = "display: none;">
+ <select id = "specialiteSel" size = "1" onChange="remplirTable2(this)">
+ <option>Choisissez specialite</option>
+ </select>
+ <div id = "spec">
+ </div>
+ </div>
+ </form>
+</div>
+
+
+		<footer>
+            <hr>
+            <p>Travail fait par: Tatsiana Shkoda  Matricule: 20025283  Login:shkodata</p>
+        </footer>
+</body>
+</html>
