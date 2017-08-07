@@ -1,3 +1,3 @@
 # MyUniversityProjects
 
-This repo was created to store the code surce of my University projects
+This repo was created to store the code source of my University projects
