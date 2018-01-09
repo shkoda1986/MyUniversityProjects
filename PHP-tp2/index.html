@@ -1,0 +1,96 @@
+<!--
+Auteur: Tatsiana Shkoda
+Matricule: 20025283
+IFT 1147-A
+TP 2
+La date de création:18/06/2016
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <meta charset="utf-8">
+        <title>Travail Pratique #2</title>
+	<script language=Javascript src=".\js\JS.js"> </script>
+        <!--le CSS-->
+        <link rel="stylesheet" href=".\css\CSS.css" />
+    </head>
+
+<body>
+
+<!--L'entête-->
+        <header>
+                
+            <h1>MENU DE NAVIGATION :</h1>
+             <hr>   
+        </header>
+		
+<a href="#" onClick="document.getElementById('film1').style.visibility='visible'">Enregistrer un film</a><br><br>
+<a href="#" onClick="document.getElementById('film2').style.visibility='visible'">Retirer un film</a><br><br>
+<a href="#" onClick="document.getElementById('film3').style.visibility='visible'">Mettre à jour les données d’un film</a><br><br>
+<a href="#" onClick="document.getElementById('film4').style.visibility='visible'">Lister tous les films</a>
+
+<div id = "film1"
+style="visibility:hidden;position:absolute;top:13%;margin-left:10%";>
+<form name="enregistrerFilm" action="php\gestionFilms.php" method="POST">
+Numéro du film :  <input id="numFilm" name="numFilm" type="text"><br>
+Titre : <input id="titre" name="titre" type="text"><br>
+Réalisateur : <input id="realisateur" name="realisateur" type="text"><br>
+Catégorie : <select  id="categorie" name="categorie" size="1">
+		<option value="Action">Action</option>
+		<option value="Drame et repertoire">Drame et répertoire</option>
+		<option value="Comedie">Comédie</option>
+		<option value="Science-fiction">Science-fiction</option>
+		<option value="Horreur">Horreur</option>
+		<option value="Comedies musicales">Comédies musicales</option>
+		<option value="Pour la famille">Pour la famille</option>
+	</select><br>
+Durée : <input id="duree" name="duree" type="text"><br>
+Prix : <input id="prix" name="prix" type="text"><br>
+L’emplacement de l’image de la pochette du film : <input id="empl_image" name="empl_image" type="text"><br>
+<input type="hidden" name="action" value="Enregistrer">
+<input type="button" value="Enregistrer" onClick="valider()">
+<input type="reset" value="Reset"> 
+</form>
+</div>
+
+<div id = "film2"
+style="visibility:hidden;position:absolute;top:18%;margin-left:1%";>
+<form name="retirerFilm" action="php\gestionFilms.php" method="POST">
+Numéro du film :  <input id="numFilm" name="numFilm" type="text"><br>
+<input type="hidden" name="action" value="Retirer">
+<input type="button" value="Retirer" onClick="retirer()">
+<input type="reset" value="Reset">
+</form>
+</div>
+
+<div id = "film3"
+style="visibility:hidden;position:absolute;top:23%;margin-left:1%";>
+<form name="modifierFilm" action="php\gestionFilms.php" method="POST">
+Numéro du film :  <input id="numFilm" name="numFilm" type="text"><br>
+<input type="hidden" name="action" value="Modifier">
+<input type="hidden" name="etat" value="Retirer">
+<input type="button" value="Modifier" onClick="modifier()">
+<input type="reset" value="Reset">
+</form>
+</div>
+
+<div id = "film4"
+style="visibility:hidden;position:absolute;top:23%;margin-left:1%";>
+<form name="listerFilm" action="php\gestionFilms.php" method="POST">
+
+<input type="hidden" name="action" value="Lister">
+<input type="button" value="Lister" onClick="lister()">
+
+</form>
+</div>
+ <!--Validation sur W3C et le logo HTML5-->
+        <footer>
+             <hr>
+            <p>Travail fait par: Tatsiana Shkoda  Matricule: 20025283  Login:shkodata</p>
+            <div>
+            <a href="http://validator.w3.org/check/referer"><img src="images/html5.png"  width="64" height="64" alt="HTML5" title="HTML5"/></a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="images/css3.png"  width="64" height="64" alt="CSS3" title="CSS3"/></a>
+            </div>
+        </footer>
+</body>
+</html>

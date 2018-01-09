@@ -1,0 +1,27 @@
+/*
+Auteur: Tatsiana Shkoda
+Matricule: 20025283
+IFT 1147-A
+TP 2
+La date de création:18/06/2016
+*/
+@charset "utf-8";
+
+body{
+     font-family:serif;
+     background-color:white;
+     color:black;}
+    
+h1{text-align: center; color:red;}
+
+form{text-align: center;}
+div{display: inline-block; width: 100%;}
+footer {margin-top:20%;}
+footer a:last-child{ width: 50%;float:right;text-align: right; margin-right:10px;}
+footer a:first-child{margin-left:10px; }
+
+aside{background-color:gray;float: left; width: 20%;margin:5px;}
+table{ float: right;background-color:#f2f2f2; width: 75%;margin:5px;padding:5px;}
+td{text-align: left; font-size:7pt;}
+ul a{color:white;}
+p{display: inline-block;}
