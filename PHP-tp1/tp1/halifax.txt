@@ -1,0 +1,4 @@
+information: Neige
+temperature: -12 C
+vent: 18 km/h
+desc: Par la suite, alternance de soleil et de nuages.

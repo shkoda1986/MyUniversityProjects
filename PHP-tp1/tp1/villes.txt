@@ -1,0 +1,7 @@
+Ville:Montreal; Fichier:montreal.txt
+Ville:Quebec; Fichier:quebec.txt
+Ville:Toronto; Fichier:toronto.txt
+Ville:Halifax; Fichier:halifax.txt
+Ville:Ottawa; Fichier:ottawa.txt
+Ville:Vancouver; Fichier:vancouver.txt
+Ville:Winnipeg; Fichier:winnipeg.txt

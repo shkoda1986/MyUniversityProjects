@@ -1,0 +1,5 @@
+information: Ensoleille
+temperature: 22 C
+humidite: 40%
+vent: 20 km/h
+desc: Ensoleille avec passage nuageux. Maximum 17.

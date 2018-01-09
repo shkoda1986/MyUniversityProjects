@@ -1,0 +1,5 @@
+information: Nuageux
+temperature: 27 C
+humidite: 49%
+vent: 18 km/h
+desc: Par la suite, alternance de soleil et de nuages. Minimum 22.

@@ -1,0 +1,5 @@
+information: Pluie
+temperature: 19 C
+humidite: 86%
+vent: 15 km/h
+desc: Pluie pendant tout la journee. Maximum 19.

@@ -1,0 +1,4 @@
+information: Pluie
+temperature: 23 C
+humidite: 75%
+desc: Pluie avec passages nuageux. Maximum 23.

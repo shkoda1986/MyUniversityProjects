@@ -1,0 +1,4 @@
+information: Ensoleille
+temperature: 25 C
+humidite: 41%
+desc: Ensoleille sans passage nuageux. Maximum 28.

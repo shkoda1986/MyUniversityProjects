@@ -1,0 +1,4 @@
+information: Nuageux
+temperature: 25 C
+humidite: 49%
+desc: Par la suite, alternance de soleil et de nuages. Minimum 20. Maximum 26.
