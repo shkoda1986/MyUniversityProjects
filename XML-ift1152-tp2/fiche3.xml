@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="1.xsl"?>
+<geospatialdata id ="b2db6766-2451-495d-b63b-c9fda0847f57" lang="fr" charset="utf-8">
+    <datestamp>2015-01-09T12:21:38</datestamp>
+     <distributionInfo>
+        <format>GeoTIFF</format>
+        <distributionOrganisation>
+            <organisationName>Cartothèque de l'Université de Montréal</organisationName>
+            <phone>
+                <voice>514 343-8038</voice>
+                <facsimile>514 343-8008</facsimile>
+            </phone>
+            <address>520, chemin de la Côte-Ste-Catherine, Université de Montréal</address>
+            <city>Montréal</city>
+            <province>Québec</province>
+            <postalCode>H2V 2B8</postalCode>
+            <country>Canada</country>
+            <electronicMailAddress>carto@umontreal.ca</electronicMailAddress>
+        </distributionOrganisation>
+    </distributionInfo>
+    <dataInfo>
+        <title>Mosaïques orthophotographiques des villages nordiques
+            1:10000</title>
+        <alternateTitle>Villages nordiques (Ortho
+            mosaïques)</alternateTitle>        
+        <description>Couvre les villages inuits : Aupluk, Kangiqsujuaq,
+            Kuujjuaq, Quaqtaq, Salluit, Umiujag situés au nord du 55e
+            parallèle.</description>
+        <keywords>
+            <keyword>orthophotographie</keyword>
+            <keyword>Salluit (Québec)</keyword>
+            <keyword>Aupaluk (Québec)</keyword>
+            <keyword>Kangiqsujuaq (Québec)</keyword>
+            <keyword>Kuujjuaq (Québec)</keyword>
+            <keyword>Quaqtaq (Québec)</keyword>
+            <keyword>Umiujaq (Québec)</keyword>
+        </keywords>
+        <responsibleOrganisation>
+            <organisationName>Géoboutique Québec - Ministère de l'Énergie et des Ressources naturelles</organisationName>
+            <phone>
+                <voice>418 627-6356</voice>
+                <voice>1 877 803-0613</voice>
+            </phone>
+            <address>5700, 4e Avenue Ouest, E-318</address>
+            <city>Québec</city>
+            <province>Québec</province>
+            <postalCode>G1H 6R1</postalCode>
+            <country>Canada</country>
+            <electronicMailAddress>geoboutique@mern.gouv.qc.ca</electronicMailAddress>
+        </responsibleOrganisation>
+    </dataInfo>
+    <spatialRepresentationInfo>
+        <geographicBoundingBox>
+            <westBoundLongitude>-76.5616951606679</westBoundLongitude>
+            <eastBoundLongitude>-68.3487028554208</eastBoundLongitude>
+            <southBoundLatitude>56.5239503211621</southBoundLatitude>
+            <northBoundLatitude>62.2261535326281</northBoundLatitude>
+        </geographicBoundingBox>
+        <temporalExtent>
+            <begin>2003</begin>
+            <end>2004</end>
+        </temporalExtent>
+        <referenceSystemIdentifier>EPSG:32186</referenceSystemIdentifier>
+        <referenceSystemIdentifier>EPSG:32187</referenceSystemIdentifier>
+        <referenceSystemIdentifier>EPSG:32189</referenceSystemIdentifier>
+        <type>grid</type>
+        <scale>10000</scale>
+        <resolutionDistance unit="m">0.25</resolutionDistance>
+        <preview url="http://www-desi.iro.umontreal.ca/previews/fiche3.png"/>
+    </spatialRepresentationInfo>
+</geospatialdata>

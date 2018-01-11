@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<geospatialdata id="b76ed83d-574c-49c8-9e11-f01d36807c26" lang="fr" charset="utf-8">
+    <datestamp>2015-03-26T14:41:04</datestamp>
+     <distributionInfo>
+         <distributionOrganisation>
+             <organisationName>Cartothèque de l'Université de Montréal</organisationName>
+             <phone>
+                 <voice>514 343-8038</voice>
+                 <facsimile>514 343-8008</facsimile>
+             </phone>
+             <address>520, chemin de la Côte-Ste-Catherine, Université de Montréal</address>
+             <city>Montréal</city>
+             <province>Québec</province>
+             <postalCode>H2V 2B8</postalCode>
+             <country>Canada</country>
+             <electronicMailAddress>carto@umontreal.ca</electronicMailAddress>
+         </distributionOrganisation>
+     </distributionInfo>
+    <dataInfo>
+        <title>Aire désignée (surface)</title>
+        <alternateTitle>Aire désignée</alternateTitle>
+        <description>La couche « Aire désignée (surface) » résulte
+            d’un assemblage hétérogène de couches « aired_s » natives en
+            format E00 issues des feuillets (tuiles) numériques de la Base
+            de données topographique du Québec (BDTQ) qui ont été acquis par
+            la Cartothèque. Notre collection n'est pas complète et ne
+            comprend donc pas les 2765 feuillets numériques disponibles de
+            la BDTQ. La couche « Aire désignée (surface) » est représentée
+            et disponible en couverture discontinue « bdtq_aired_s_poly ».
+            L’intégrité de la topologie se limite aux tuiles définies selon
+            le système québécois de référence cartographique (SQRC).
+            L’usager doit donc lui-même corriger cette topologie au besoin.
+            L’ensemble des champs originaux (compris dans les données E00) a
+            été conservé lors de l’assemblage et trois nouveaux champs ont
+            été ajoutés : dat_acqui : Date d’acquisition des données par la
+            Cartothèque dat_charg : Date du chargement des données dans le
+            SGBD spatial no_feuil : Numéro de feuillet auquel l’élément
+            géométrique appartient.</description>
+        <keywords>
+            <keyword>carrières</keyword>
+            <keyword>mines</keyword>
+            <keyword>verges</keyword>
+            <keyword>rarcs de stationnement</keyword>
+        </keywords>
+        <responsibleOrganisation>
+            <organisationName>Géoboutique Québec - Ministère de l'Énergie et des Ressources naturelles</organisationName>
+            <phone>
+                <voice>418 627-6356</voice>
+                <voice>1 877 803-0613</voice>
+            </phone>
+            <address>5700, 4e Avenue Ouest, E-318</address>
+            <city>Québec</city>
+            <province>Québec</province>
+            <postalCode>G1H 6R1</postalCode>
+            <country>Canada</country>
+            <electronicMailAddress>geoboutique@mern.gouv.qc.ca</electronicMailAddress>
+        </responsibleOrganisation>
+    </dataInfo>
+    <spatialRepresentationInfo>
+        <geographicBoundingBox>
+            <westBoundLongitude>-74.9972302156358</westBoundLongitude>
+            <eastBoundLongitude>-65.2341523197998</eastBoundLongitude>
+            <southBoundLatitude>45.0029562605866</southBoundLatitude>
+            <northBoundLatitude>49.2104961174995</northBoundLatitude>
+        </geographicBoundingBox>
+        <temporalExtent>
+            <begin>1997</begin>
+            <end>2015</end>
+        </temporalExtent>
+        <referenceSystemIdentifier>EPSG:4269</referenceSystemIdentifier>
+        <type>vector</type>
+        <geometricObjects>
+            <type>surface</type>
+            <count>11836</count>
+        </geometricObjects>
+        <scale>1000</scale>
+        <legend img="legends/fiche2.png"/>
+        <preview url="http://www-desi.iro.umontreal.ca/previews/fiche2.png"/>
+    </spatialRepresentationInfo>
+</geospatialdata>

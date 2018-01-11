@@ -1,0 +1,19 @@
+header img {
+    vertical-align:bottom;
+    padding: 0 10px;
+}
+ table {
+     border-collapse: collapse;
+     border: thin solid black;
+ }
+
+td, th {
+    padding: 0.5rem;
+    border: thin solid black;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+}

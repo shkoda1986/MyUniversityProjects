@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<geospatialdata id="b35d7514-a5a1-4182-8796-9821c2151e43" lang="fr" charset="utf-8">
+    <datestamp>2015-01-09T12:21:38</datestamp>
+    <distributionInfo>
+        <format>ECW</format>
+        <distributionOrganisation>
+            <organisationName>Cartothèque de l'Université de Montréal</organisationName>
+            <phone>
+                <voice>514 343-8038</voice>
+                <facsimile>514 343-8008</facsimile>
+            </phone>
+            <address>520, chemin de la Côte-Ste-Catherine, Université de Montréal</address>
+            <city>Montréal</city>
+            <province>Québec</province>
+            <postalCode>H2V 2B8</postalCode>
+            <country>Canada</country>
+            <electronicMailAddress>carto@umontreal.ca</electronicMailAddress>
+        </distributionOrganisation>
+     </distributionInfo>
+    <dataInfo>
+        <title>Orthophotographies couleur de la Communauté métropolitaine de Montréal 2009 - (10 cm)</title>
+        <alternateTitle>CMM 2009 (Ortho)</alternateTitle>                
+        <description>Les 2873 orthophotos qui composent la couche « Orthophotographies couleur et
+            infrarouge de la Communauté métropolitaine de Montréal 2009 - (10 cm) » ont subi des
+            manipulations afin d'optimiser les performances d'affichage dans un contexte de
+            diffusion (WMS). Les transformations suivantes ont été apportées aux images originales
+            (format tif/tfw): - Insertion des informations de géoréférence directement dans l'image
+            pour éviter le processus répétitif d'ouverture et de fermeture des fichiers .tfw lors de
+            génération de cartes; -Découpage interne en petites tuiles pour chacune des orthophotos.
+            De cette façon, lorsque qu'une partie seulement de l'image est requise pour produire une
+            carte, le fichier n'a pas besoin d'être lu en entier ; -Génération de représentations
+            internes (« overview ») à différentes échelles. Grâce à ce procédé, l'utilisation des
+            orthophotos est optimisée pour prendre en charge la génération de carte à petite et à
+            grande échelle en utilisant les résolutions correspondantes. </description>
+        <keywords>
+            <keyword>orthophotographie</keyword>
+        </keywords>
+        <responsibleOrganisation>
+            <organisationName>Géoboutique Québec - Ministère de l'Énergie et des Ressources naturelles</organisationName>
+            <phone>
+                <voice>418 627-6356</voice>
+                <voice>1 877 803-0613</voice>
+            </phone>
+            <address>5700, 4e Avenue Ouest, E-318</address>
+            <city>Québec</city>
+            <province>Québec</province>
+            <postalCode>G1H 6R1</postalCode>
+            <country>Canada</country>
+            <electronicMailAddress>geoboutique@mern.gouv.qc.ca</electronicMailAddress>
+        </responsibleOrganisation>      
+    </dataInfo>
+    <spatialRepresentationInfo>
+        <geographicBoundingBox>
+            <westBoundLongitude>-79.750006</westBoundLongitude>
+            <eastBoundLongitude>-56.999994</eastBoundLongitude>
+            <southBoundLatitude>44.874996</southBoundLatitude>
+            <northBoundLatitude>52.250003</northBoundLatitude>
+        </geographicBoundingBox>
+        <temporalExtent>
+            <begin>2009</begin>
+            <end>2010</end>
+        </temporalExtent>
+        <referenceSystemIdentifier>EPSG:32188</referenceSystemIdentifier>
+        <type>grid</type>
+        <scale>1000</scale>
+        <numberOfDimensions>2</numberOfDimensions>
+        <resolutionDistance unit="cm">10</resolutionDistance>
+        <preview url="http://www-desi.iro.umontreal.ca/previews/fiche1.png"/>
+    </spatialRepresentationInfo>
+</geospatialdata>
