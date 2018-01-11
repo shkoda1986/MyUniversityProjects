@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+*{
+    font-family:roman, 'times new roman', times, serif;
+    display:block;
+    font-size:x-small;}
+    
+datestamp, distributionInfo,alternateTitle,description,
+responsibleOrganisation,geographicBoundingBox,type,scale,
+numberOfDimensions{ display:none;}
+
+geodata::before { content: "Travail pratique 3 - IFT1152 Données géospatiales";
+                  font-size:x-large;
+                  font-weight:bold;
+                  display:inline-block;
+                  margin: 1% 37% 1% 2%;              
+                   white-space: normal;
+                   width: 25%;}
+    
+geospatialdata:hover {
+    background-color:#FFEAAA;} 
+   
+geospatialdata{
+    border: 1px solid black;
+    margin:0% 37% 0% 1%;}
+
+title{
+    color:blue;
+    text-align:center;
+    visibility:visible;
+    margin: 15px;}
+    
+keywords::before{
+    content:"Sujets(s):";
+    margin:10px;}
+
+keyword{
+    display:list-item;
+    list-style: square outside; 
+    margin:0px 10px 0px 35px;}
+
+begin::before{
+    content:"Étendue temporelle: de ";
+   margin:5px 10px 5px 15px;
+  display:inline-block;}
+  
+begin::after{
+    content:" à ";}
+    
+begin, end{
+    display: inline-block;}
+    
+temporalExtent::after{
+    content:"Système(s) de référence: ";
+    margin:0px 10px 5px 15px;
+     display: block;}
+     
+referenceSystemIdentifier{
+     display:list-item;
+    list-style:decimal inside;
+    margin:0px 10px 0px 25px;}
+    
+referenceSystemIdentifier::before{
+    content:" - ";}
+
+resolutionDistance::before{
+    content:"Distance au sol: ";
+    margin:5px 10px 0px 15px;
+    display:inline-block;}
+    
+resolutionDistance::after{
+    content:"cm";}
+    
+count::before{
+    content:"Nombre d'objets numériques: ";
+    margin:5px 10px 0px 15px;
+    display:inline-block;}
+    
+count::after{
+    content:" (surface)";}
+    
+preview{
+display:block; margin:2% auto 2%;
+width: 200px;
+height: 200px;
+border: 1px blue solid;}
+
+preview[url$="fiche4.png"]{
+content: url(http://www-desi.iro.umontreal.ca/~coelho/ift1152/Tps/Tp3/previews/fiche4.png);}
+
+preview[url$="fiche3.png"]{
+content: url(http://www-desi.iro.umontreal.ca/~coelho/ift1152/Tps/Tp3/previews/fiche3.png);}
+
+preview[url$="fiche2.png"]{
+content: url(http://www-desi.iro.umontreal.ca/~coelho/ift1152/Tps/Tp3/previews/fiche2.png);}
+
+preview[url$="fiche1.png"]{
+content: url(http://www-desi.iro.umontreal.ca/~coelho/ift1152/Tps/Tp3/previews/fiche1.png);}

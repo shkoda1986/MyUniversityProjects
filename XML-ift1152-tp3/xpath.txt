@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+/*/count(geospatialdata)
+/geodata/geospatialdata[1]/dataInfo/title/text()
+//* [@lang = "fr"]
+//dataInfo/title[../../distributionInfo/distributionOrganisation/phone/voice[starts-with(text(), '514')]]
+sum(//geometricObjects[type = "surface"]/count)
+//descendant-or-self::scale[text()>=10000]
+//descendant-or-self::alternateTitle[following-sibling::keywords/child::keyword/text() = "Canada"]
+//*[child::begin/text() >=2002 and child::end/text() <=2013]

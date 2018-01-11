@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<geospatialdata id="80a7a4f7-9d74-43ec-b1ba-4d1376c9edc7" lang="en" charset="utf-8">
+    <datestamp>2015-03-17T09:48:38</datestamp>
+    <distributionInfo>
+        <distributionOrganisation>
+            <organisationName>Cartothèque de l'Université de Montréal</organisationName>
+            <phone>
+                <voice>514 343-8038</voice>
+                <facsimile>514 343-8008</facsimile>
+            </phone>
+            <address>520, chemin de la Côte-Ste-Catherine, Université de Montréal</address>
+            <city>Montréal</city>
+            <province>Québec</province>
+            <postalCode>H2V 2B8</postalCode>
+            <country>Canada</country>
+            <electronicMailAddress>carto@umontreal.ca</electronicMailAddress>
+        </distributionOrganisation>
+    </distributionInfo>
+    <dataInfo>
+        <title>Area Code Boundaries (ACB)</title>
+        <alternateTitle>ACB</alternateTitle>
+        <description>Area code boundaries is a graphic representation of Canadian telephone area
+            codes. In the Canadian telephone system, an area code is a three-digit code delineating
+            a “toll” and is distributed according to the North American Number Plan (NANP). This
+            product is positioned to provide the foundation for most enterprise decision support
+            systems or customer facing location services. The benefits are to enhance and Develop
+            enterprise applications based on detailed DMTI Spatial datasets, reduce operating costs
+            through increased efficiency from using real street data, minimize travel time with
+            optimized routes and schedules, improve delivery processes and increase customer
+            satisfaction.</description>
+        <keywords>
+            <keyword>postal code</keyword>
+            <keyword>Canada</keyword>
+        </keywords>
+        <responsibleOrganisation>
+            <organisationName>Géoboutique Québec - Ministère de l'Énergie et des Ressources
+                naturelles</organisationName>
+            <phone>
+                <voice>418 627-6356</voice>
+                <voice>1 877 803-0613</voice>
+            </phone>
+            <address>5700, 4e Avenue Ouest, E-318</address>
+            <city>Québec</city>
+            <province>Québec</province>
+            <postalCode>G1H 6R1</postalCode>
+            <country>Canada</country>
+            <electronicMailAddress>geoboutique@mern.gouv.qc.ca</electronicMailAddress>
+        </responsibleOrganisation>
+    </dataInfo>
+    <spatialRepresentationInfo>
+        <geographicBoundingBox>
+            <westBoundLongitude>-141.002121</westBoundLongitude>
+            <eastBoundLongitude>52.582581</eastBoundLongitude>
+            <southBoundLatitude>41.676559</southBoundLatitude>
+            <northBoundLatitude>83.999996</northBoundLatitude>
+        </geographicBoundingBox>
+        <temporalExtent>
+            <begin>2001</begin>
+            <end>2012</end>
+        </temporalExtent>
+        <referenceSystemIdentifier>EPSG:4269</referenceSystemIdentifier>
+        <type>vector</type>
+        <geometricObjects>
+            <count>20</count>
+            <type>surface</type>
+        </geometricObjects>
+        <scale>50000</scale>
+        <legend img="legends/fiche4.png"/>
+        <preview url="http://www-desi.iro.umontreal.ca/previews/fiche4.png"/>
+    </spatialRepresentationInfo>
+</geospatialdata>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="tp3.css"?>
+<geodata>
+    <geospatialdata id="b35d7514-a5a1-4182-8796-9821c2151e43" lang="fr" charset="utf-8">
+        <datestamp>2015-01-09T12:21:38</datestamp>
+        <distributionInfo>
+            <format>ECW</format>
+            <distributionOrganisation>
+                <organisationName>Cartothèque de l'Université de Montréal</organisationName>
+                <phone>
+                    <voice>438 343-8038</voice>
+                    <facsimile>514 343-8008</facsimile>
+                </phone>
+                <address>
+                    520, chemin de la Côte-Ste-Catherine, Université de Montréal
+                </address>
+                <city>Montréal</city>
+                <province>Québec</province>
+                <postalCode>H2V 2B8</postalCode>
+                <country>Canada</country>
+                <electronicMailAddress>carto@umontreal.ca</electronicMailAddress>
+            </distributionOrganisation>
+        </distributionInfo>
+        <dataInfo>
+            <title>
+                Orthophotographies couleur de la Communauté métropolitaine de Montréal 2009 - (10 cm)
+            </title>
+            <alternateTitle>CMM 2009 (Ortho)</alternateTitle>
+            <description>
+                Les 2873 orthophotos qui composent la couche « Orthophotographies couleur et infrarouge de la Communauté métropolitaine de Montréal 2009 - (10 cm) » ont subi des manipulations afin d'optimiser les performances d'affichage dans un contexte de diffusion (WMS). Les transformations suivantes ont été apportées aux images originales (format tif/tfw): - Insertion des informations de géoréférence directement dans l'image pour éviter le processus répétitif d'ouverture et de fermeture des fichiers .tfw lors de génération de cartes; -Découpage interne en petites tuiles pour chacune des orthophotos. De cette façon, lorsque qu'une partie seulement de l'image est requise pour produire une carte, le fichier n'a pas besoin d'être lu en entier ; -Génération de représentations internes (« overview ») à différentes échelles. Grâce à ce procédé, l'utilisation des orthophotos est optimisée pour prendre en charge la génération de carte à petite et à grande échelle en utilisant les résolutions correspondantes.
+            </description>
+            <keywords>
+                <keyword>orthophotographie</keyword>
+            </keywords>
+            <responsibleOrganisation>
+                <organisationName>
+                    Géoboutique Québec - Ministère de l'Énergie et des Ressources naturelles
+                </organisationName>
+                <phone>
+                    <voice>418 627-6356</voice>
+                    <voice>1 877 803-0613</voice>
+                </phone>
+                <address>5700, 4e Avenue Ouest, E-318</address>
+                <city>Québec</city>
+                <province>Québec</province>
+                <postalCode>G1H 6R1</postalCode>
+                <country>Canada</country>
+                <electronicMailAddress>geoboutique@mern.gouv.qc.ca</electronicMailAddress>
+            </responsibleOrganisation>
+        </dataInfo>
+        <spatialRepresentationInfo>
+            <geographicBoundingBox>
+                <westBoundLongitude>-79.750006</westBoundLongitude>
+                <eastBoundLongitude>-56.999994</eastBoundLongitude>
+                <southBoundLatitude>44.874996</southBoundLatitude>
+                <northBoundLatitude>52.250003</northBoundLatitude>
+            </geographicBoundingBox>
+            <temporalExtent>
+                <begin>2009</begin>
+                <end>2010</end>
+            </temporalExtent>
+            <referenceSystemIdentifier>EPSG:32188</referenceSystemIdentifier>
+            <type>grid</type>
+            <scale>1000</scale>
+            <numberOfDimensions>2</numberOfDimensions>
+            <resolutionDistance unit="cm">10</resolutionDistance>
+            <preview url="http://www-desi.iro.umontreal.ca/~coelho/ift1152/Tps/Tp3/previews/fiche1.png"/>
+        </spatialRepresentationInfo>
+    </geospatialdata>
+    <geospatialdata id="b76ed83d-574c-49c8-9e11-f01d36807c26" lang="fr" charset="utf-8">
+        <datestamp>2015-03-26T14:41:04</datestamp>
+        <distributionInfo>
+            <distributionOrganisation>
+                <organisationName>Cartothèque de l'Université de Montréal</organisationName>
+                <phone>
+                    <voice>514 343-8038</voice>
+                    <facsimile>514 343-8008</facsimile>
+                </phone>
+                <address>
+                    520, chemin de la Côte-Ste-Catherine, Université de Montréal
+                </address>
+                <city>Montréal</city>
+                <province>Québec</province>
+                <postalCode>H2V 2B8</postalCode>
+                <country>Canada</country>
+                <electronicMailAddress>carto@umontreal.ca</electronicMailAddress>
+            </distributionOrganisation>
+        </distributionInfo>
+        <dataInfo>
+            <title>Aire désignée (surface)</title>
+            <alternateTitle>Aire désignée</alternateTitle>
+            <description>
+                La couche « Aire désignée (surface) » résulte d’un assemblage hétérogène de couches « aired_s » natives en format E00 issues des feuillets (tuiles) numériques de la Base de données topographique du Québec (BDTQ) qui ont été acquis par la Cartothèque. Notre collection n'est pas complète et ne comprend donc pas les 2765 feuillets numériques disponibles de la BDTQ. La couche « Aire désignée (surface) » est représentée et disponible en couverture discontinue « bdtq_aired_s_poly ». L’intégrité de la topologie se limite aux tuiles définies selon le système québécois de référence cartographique (SQRC). L’usager doit donc lui-même corriger cette topologie au besoin. L’ensemble des champs originaux (compris dans les données E00) a été conservé lors de l’assemblage et trois nouveaux champs ont été ajoutés : dat_acqui : Date d’acquisition des données par la Cartothèque dat_charg : Date du chargement des données dans le SGBD spatial no_feuil : Numéro de feuillet auquel l’élément géométrique appartient.
+            </description>
+            <keywords>
+                <keyword>carrières</keyword>
+                <keyword>mines</keyword>
+                <keyword>verges</keyword>
+                <keyword>rarcs de stationnement</keyword>
+            </keywords>
+            <responsibleOrganisation>
+                <organisationName>
+                    Géoboutique Québec - Ministère de l'Énergie et des Ressources naturelles
+                </organisationName>
+                <phone>
+                    <voice>418 627-6356</voice>
+                    <voice>1 877 803-0613</voice>
+                </phone>
+                <address>5700, 4e Avenue Ouest, E-318</address>
+                <city>Québec</city>
+                <province>Québec</province>
+                <postalCode>G1H 6R1</postalCode>
+                <country>Canada</country>
+                <electronicMailAddress>geoboutique@mern.gouv.qc.ca</electronicMailAddress>
+            </responsibleOrganisation>
+        </dataInfo>
+        <spatialRepresentationInfo>
+            <geographicBoundingBox>
+                <westBoundLongitude>-74.9972302156358</westBoundLongitude>
+                <eastBoundLongitude>-65.2341523197998</eastBoundLongitude>
+                <southBoundLatitude>45.0029562605866</southBoundLatitude>
+                <northBoundLatitude>49.2104961174995</northBoundLatitude>
+            </geographicBoundingBox>
+            <temporalExtent>
+                <begin>1997</begin>
+                <end>2015</end>
+            </temporalExtent>
+            <referenceSystemIdentifier>EPSG:4269</referenceSystemIdentifier>
+            <type>vector</type>
+            <geometricObjects>
+                <type>surface</type>
+                <count>11836</count>
+            </geometricObjects>
+            <scale>1000</scale>
+            <legend img="legends/fiche2.png"/>
+            <preview url="http://www-desi.iro.umontreal.ca/~coelho/ift1152/Tps/Tp3/previews/fiche2.png"/>
+        </spatialRepresentationInfo>
+    </geospatialdata>
+    <geospatialdata id="b2db6766-2451-495d-b63b-c9fda0847f57" lang="fr" charset="utf-8">
+        <datestamp>2015-01-09T12:21:38</datestamp>
+        <distributionInfo>
+            <format>GeoTIFF</format>
+            <distributionOrganisation>
+                <organisationName>Cartothèque de l'Université de Montréal</organisationName>
+                <phone>
+                    <voice>514 343-8038</voice>
+                    <facsimile>514 343-8008</facsimile>
+                </phone>
+                <address>
+                    520, chemin de la Côte-Ste-Catherine, Université de Montréal
+                </address>
+                <city>Montréal</city>
+                <province>Québec</province>
+                <postalCode>H2V 2B8</postalCode>
+                <country>Canada</country>
+                <electronicMailAddress>carto@umontreal.ca</electronicMailAddress>
+            </distributionOrganisation>
+        </distributionInfo>
+        <dataInfo>
+            <title>
+                Mosaïques orthophotographiques des villages nordiques 1:10000
+            </title>
+            <alternateTitle>Villages nordiques (Ortho mosaïques)</alternateTitle>
+            <description>
+                Couvre les villages inuits : Aupluk, Kangiqsujuaq, Kuujjuaq, Quaqtaq, Salluit, Umiujag situés au nord du 55e parallèle.
+            </description>
+            <keywords>
+                <keyword>orthophotographie</keyword>
+                <keyword>Salluit (Québec)</keyword>
+                <keyword>Aupaluk (Québec)</keyword>
+                <keyword>Kangiqsujuaq (Québec)</keyword>
+                <keyword>Kuujjuaq (Québec)</keyword>
+                <keyword>Quaqtaq (Québec)</keyword>
+                <keyword>Umiujaq (Québec)</keyword>
+            </keywords>
+            <responsibleOrganisation>
+                <organisationName>
+                    Géoboutique Québec - Ministère de l'Énergie et des Ressources naturelles
+                </organisationName>
+                <phone>
+                    <voice>418 627-6356</voice>
+                    <voice>1 877 803-0613</voice>
+                </phone>
+                <address>5700, 4e Avenue Ouest, E-318</address>
+                <city>Québec</city>
+                <province>Québec</province>
+                <postalCode>G1H 6R1</postalCode>
+                <country>Canada</country>
+                <electronicMailAddress>geoboutique@mern.gouv.qc.ca</electronicMailAddress>
+            </responsibleOrganisation>
+        </dataInfo>
+        <spatialRepresentationInfo>
+            <geographicBoundingBox>
+                <westBoundLongitude>-76.5616951606679</westBoundLongitude>
+                <eastBoundLongitude>-68.3487028554208</eastBoundLongitude>
+                <southBoundLatitude>56.5239503211621</southBoundLatitude>
+                <northBoundLatitude>62.2261535326281</northBoundLatitude>
+            </geographicBoundingBox>
+            <temporalExtent>
+                <begin>2003</begin>
+                <end>2004</end>
+            </temporalExtent>
+            <referenceSystemIdentifier>EPSG:32186</referenceSystemIdentifier>
+            <referenceSystemIdentifier>EPSG:32187</referenceSystemIdentifier>
+            <referenceSystemIdentifier>EPSG:32189</referenceSystemIdentifier>
+            <type>grid</type>
+            <scale>10000</scale>
+            <resolutionDistance unit="m">0.25</resolutionDistance>
+            <preview url="http://www-desi.iro.umontreal.ca/~coelho/ift1152/Tps/Tp3/previews/fiche3.png"/>
+        </spatialRepresentationInfo>
+    </geospatialdata>
+    <geospatialdata id="80a7a4f7-9d74-43ec-b1ba-4d1376c9edc7" lang="en" charset="utf-8">
+        <datestamp>2015-03-17T09:48:38</datestamp>
+        <distributionInfo>
+            <distributionOrganisation>
+                <organisationName>Cartothèque de l'Université de Montréal</organisationName>
+                <phone>
+                    <voice>514 343-8038</voice>
+                    <facsimile>514 343-8008</facsimile>
+                </phone>
+                <address>
+                    520, chemin de la Côte-Ste-Catherine, Université de Montréal
+                </address>
+                <city>Montréal</city>
+                <province>Québec</province>
+                <postalCode>H2V 2B8</postalCode>
+                <country>Canada</country>
+                <electronicMailAddress>carto@umontreal.ca</electronicMailAddress>
+            </distributionOrganisation>
+        </distributionInfo>
+        <dataInfo>
+            <title>Area Code Boundaries (ACB)</title>
+            <alternateTitle>ACB</alternateTitle>
+            <description>
+                Area code boundaries is a graphic representation of Canadian telephone area codes. In the Canadian telephone system, an area code is a three-digit code delineating a “toll” and is distributed according to the North American Number Plan (NANP). This product is positioned to provide the foundation for most enterprise decision support systems or customer facing location services. The benefits are to enhance and Develop enterprise applications based on detailed DMTI Spatial datasets, reduce operating costs through increased efficiency from using real street data, minimize travel time with optimized routes and schedules, improve delivery processes and increase customer satisfaction.
+            </description>
+            <keywords>
+                <keyword>postal code</keyword>
+                <keyword>Canada</keyword>
+            </keywords>
+            <responsibleOrganisation>
+                <organisationName>
+                    Géoboutique Québec - Ministère de l'Énergie et des Ressources naturelles
+                </organisationName>
+                <phone>
+                    <voice>418 627-6356</voice>
+                    <voice>1 877 803-0613</voice>
+                </phone>
+                <address>5700, 4e Avenue Ouest, E-318</address>
+                <city>Québec</city>
+                <province>Québec</province>
+                <postalCode>G1H 6R1</postalCode>
+                <country>Canada</country>
+                <electronicMailAddress>geoboutique@mern.gouv.qc.ca</electronicMailAddress>
+            </responsibleOrganisation>
+        </dataInfo>
+        <spatialRepresentationInfo>
+            <geographicBoundingBox>
+                <westBoundLongitude>-141.002121</westBoundLongitude>
+                <eastBoundLongitude>52.582581</eastBoundLongitude>
+                <southBoundLatitude>41.676559</southBoundLatitude>
+                <northBoundLatitude>83.999996</northBoundLatitude>
+            </geographicBoundingBox>
+            <temporalExtent>
+                <begin>2001</begin>
+                <end>2012</end>
+            </temporalExtent>
+            <referenceSystemIdentifier>EPSG:4269</referenceSystemIdentifier>
+            <type>vector</type>
+            <geometricObjects>
+                <count>20</count>
+                <type>surface</type>
+            </geometricObjects>
+            <scale>50000</scale>
+            <legend img="legends/fiche4.png"/>
+            <preview url="http://www-desi.iro.umontreal.ca/~coelho/ift1152/Tps/Tp3/previews/fiche4.png"/>
+        </spatialRepresentationInfo>
+    </geospatialdata>
+</geodata>

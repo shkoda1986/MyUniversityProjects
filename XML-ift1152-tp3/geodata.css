@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+header, footer {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+main {
+    padding: 0 0 0.5rem 0.5rem;
+}
+
+main > div {
+    border: thin solid navy;
+}
+
+
+main div h2 {
+    text-align: center;
+    padding: 0 0.5rem;
+}
